@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>About Conor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="myFunction.js"></script>
+    <!-- favicon images -->
+    <link rel="favicon/apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+  </head>
+
+  <!-- Header Section -->
+  <header>
+
+  </header>
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><a href="hobbies.html"> hobbies </a></li>
+      <li><a href="pet.html"> pet page/chores </a></li>
+      <li><a href="tour.html"> room tour </a></li>
+      <li><a href="goals.html"> quiz </a></li>
+      <li><a href="index.html"> Home </a></li>
+    </ul>
+  </nav>
+
+  <!-- main section -->
+  <main>
+    <body>
+      <div class="container">
+        <center><h1>Quiz</h1></center>
+        <!-- Start of my javascript quiz credit to w3 schools -->
+        <div class="petFL">
+          <h3>What is Conor's Favorite Color?</h3>
+          <input type="radio" id="Purple" value="Incorrect">Purple<br>
+          <input type="radio" id="Orange" value="Correct">Orange<br>
+          <input type="radio" id="Red" value="Incorrect">Red<br>
+          <input type="radio" id="Black" value="Incorrect">Black<br><br>
+
+          <button type="button" onclick=" checkButton()"> Submit </button>
+
+          <h3 id="Correct" style= "color:green"> </h3>
+          <h4 id="Incorrect" style= "color:green"> </h4>
+        </div>
+
+        <div class="petFL">
+          <h3>How Many Clubs Does Conor Participate In?</h3>
+          <input type="radio" id="One" value="Incorrect2">One<br>
+          <input type="radio" id="Three" value="Correct2">Three<br>
+          <input type="radio" id="Five" value="Incorrect2">Five<br>
+          <input type="radio" id="Six" value="Incorrect2">Six<br><br>
+
+          <button type="button" onclick=" checkButton2()"> Submit </button>
+
+          <h3 id="Correct2" style= "color:green"> </h3>
+          <h4 id="Incorrect2" style= "color:green"> </h4>
+        </div>
+
+        <div class="petFL">
+          <h3>What Instrument Does Conor Play?</h3>
+          <input type="radio" id="Trumpet" value="Correct3">Trumpet<br>
+          <input type="radio" id="Piano" value="Incorrect3">Piano<br>
+          <input type="radio" id="Flute" value="Incorrect3">Flute<br>
+          <input type="radio" id="Violin" value="Incorrect3">Violin<br><br>
+
+          <button type="button" onclick=" checkButton3()"> Submit </button>
+
+          <h3 id="Correct3" style= "color:green"> </h3>
+          <h4 id="Incorrect3" style= "color:green"> </h4>
+        </div>
+
+        <div class="petFL">
+          <h3>How Many Pets Does Conor Take Care Of?</h3>
+          <input type="radio" id="One2" value="Correct4">One<br>
+          <input type="radio" id="Two2" value="Incorrect4">Two<br>
+          <input type="radio" id="Three2" value="Incorrect4">Three<br>
+          <input type="radio" id="Four2" value="Incorrect4">Four<br><br>
+
+          <button type="button" onclick=" checkButton4()"> Submit </button>
+
+          <h3 id="Correct4" style= "color:green"> </h3>
+          <h4 id="Incorrect4" style= "color:green"> </h4>
+        </div>
+
+        <div class="divClear">
+        </div>
+        
+        <center><button class="button blue" type-"button" onclick="checkScore()"> Check Score </button></center>
+        <h3 id="Score" style= "color:blue"> </h3>
+
+        <h2> Once you're done the quiz, you have reached the end of the about Conor website! Thank you for sticking to the end and I hope you enjoyed learning lots about Conor! Conor Is very special to me, and he is one of the nicest people you will ever meet. I am so happy that I got to have Conor as my brother since he always makes my days that much better. </h2>
+        <h3>My Favorite Things about Conor</h3>
+        <ol>
+          <li>He makes me laugh and brightens up my day</li>
+          <li>He never gets mad at you</li>
+          <li>He will always help out if you ask</li>
+        </ol>
+      </div>
+    </body>
+  </main>
+  <footer>
+    <p>©2020-2022 Bridges Can, co. All Rights Reserved.</p>
+    <p>Terms of Use
+  </footer>
+  <!-- credit to Michael Parry for the frame code -->
+  <h2 class="frame"><img alt="frame" src="images/frame.png" height="38" width="auto"></h2>
+</html>

@@ -1,0 +1,125 @@
+body {
+    color: #30343F;
+    background-color: #273469;
+    font-family: 'Poppins', serif;
+  }
+
+/*------------------------- START NAV -------------------------*/
+/* unvisited link */
+a:link {
+  color: #FAFAFF;
+}
+
+/* visited link */
+a:visited {
+  color: #273469;
+}
+
+/* selected link */
+a:active {
+  color: #1E2749;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E4D9FF;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+/*------------------------- END NAV -------------------------*/
+
+/* header code */
+header {
+  height: 150px;
+  background-image: url("images/conorHeader.jpg");
+  margin: auto;
+}
+
+/* Footer Code */
+footer {
+  height: 75px;
+  background-color: #777;
+  color: black
+}
+
+/* Website Border Code */
+.container {
+  margin: 3%;
+  border: 10px outset #E4D9FF;
+  background-image: url("images/tile.png");
+  background-repeat: repeat;
+}
+
+/* image border */
+img {
+  border: 3px solid #273469;
+}
+
+/* float data */
+.homeFL {
+  float: left;
+  background: #1E2749;
+  color: white;
+  width: 60%;
+}
+
+.homeFR {
+  float: right;
+  width: 30%;
+}
+
+.petFL {
+  float: left;
+  width: 25%;
+}
+
+.hobbyFL {
+  float: left;
+  width: 20%;
+}
+
+.petFR {
+  float: right;
+  width: 20%;
+}
+
+.divClear {
+  clear: both;
+}
+
+/* credit to michael for the frame class */
+.frame {
+	position:fixed;
+	bottom:-35px;
+}
+
+/* Button Styling */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.green {background-color: #4CAF50;} /* Green */
+.blue {background-color: #008CBA;} /* Blue */
